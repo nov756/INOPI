@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .classroom-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .classroom-container h1 {
+            margin-bottom: 20px;
+        }
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .controls button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .controls button:hover {
+            background-color: #218838;
+        }
+        .status {
+            display: flex;
+            justify-content: space-between;
+        }
+        .status div {
+            width: 30%;
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="classroom-container">
+        <h1>R1 - Kelas 10 A</h1>
+        <div class="controls">
+            <button>Set Mode</button>
+            <button>Set Schedule</button>
+        </div>
+        <div class="status">
+            <div>
+                <h3>Voltage</h3>
+                <p>220V</p>
+            </div>
+            <div>
+                <h3>Current</h3>
+                <p>5A</p>
+            </div>
+            <div>
+                <h3>Frequency</h3>
+                <p>50Hz</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
